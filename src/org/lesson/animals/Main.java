@@ -6,7 +6,8 @@ public class Main {
     aquila.dormi();
     aquila.mangia();
     aquila.verso();
-    aquila.vola();
+    // aquila.vola();
+    faiVolare(aquila);
 
     System.out.println("----------");
     
@@ -14,6 +15,16 @@ public class Main {
     delfino.dormi();
     delfino.mangia();
     delfino.verso();
-    delfino.nuota();
+    // delfino.nuota();
+    faiNuotare(delfino);
   }
+
+  public static void faiVolare(IVolante animale){
+    animale.vola();
+  }
+
+  public static void faiNuotare(INuotante animale){
+    animale.nuota();
+  }
+
 }
