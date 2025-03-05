@@ -6,11 +6,14 @@ public class Main {
     aquila.dormi();
     aquila.mangia();
     aquila.verso();
+    aquila.vola();
 
+    System.out.println("----------");
     
-    Passerotto passerotto = new Passerotto();
-    passerotto.dormi();
-    passerotto.mangia();
-    passerotto.verso();
+    Delfino delfino = new Delfino();
+    delfino.dormi();
+    delfino.mangia();
+    delfino.verso();
+    delfino.nuota();
   }
 }
